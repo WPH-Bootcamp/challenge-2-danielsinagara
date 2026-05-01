@@ -1,1 +1,31 @@
-/* code-here */
+body {
+    background-color: #000000;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FDFDFD;
+    font-weight: 400;
+    padding: 8px 16px;
+}
+
+.nav button {
+    background-color: #421ABC;
+    border-radius: 50px;
+    width: 160px;
+    height: 44px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
